@@ -46,7 +46,7 @@
    ```
 
 ### 必要组件
-1. **N_m3u8DL-RE**：核心下载引擎，程序已内置，但也可从[官方GitHub仓库](https://github.com/nilaoda/N_m3u8DL-RE/releases)下载最新版本
+1. **N_m3u8DL-RE**：核心下载引擎，可从[官方GitHub仓库](https://github.com/nilaoda/N_m3u8DL-RE/releases)下载最新版本
 2. **FFmpeg**：用于媒体文件的合并和处理，需从[官方网站](https://ffmpeg.org/download.html)下载并确保可访问
 
 ## 使用说明
