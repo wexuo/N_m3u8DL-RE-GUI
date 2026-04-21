@@ -44,6 +44,10 @@
    ```bash
    pip install -r requirements.txt
    ```
+3. 启动程序：
+   ```bash
+   python app.py
+   ```
 
 ### 必要组件
 1. **N_m3u8DL-RE**：核心下载引擎，可从[官方GitHub仓库](https://github.com/nilaoda/N_m3u8DL-RE/releases)下载最新版本
@@ -94,7 +98,7 @@
 如果需要将程序打包成单个可执行文件，可使用PyInstaller：
 
 ```bash
-pyinstaller --onefile --windowed --icon=favicon.ico m3u8_downloader_gui.py
+pyinstaller --onefile --windowed --icon=favicon.ico app.py
 ```
 
 打包后的可执行文件将位于`dist`目录中。
